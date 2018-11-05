@@ -1,13 +1,12 @@
 # Spring boot- multiple language support
 
 This code will support multiple languages.
-#### (*) we need to create folder in "src/main/resources".
-#### (*) folder name may be "i18n".
-#### (*) inside "i18n" we need to create properties file.
-#### (*) messages.properties is the default file.
-#### (*) messages_ta.properties is the tamil language property file, key word is "ta".
-#### (*) "ta" need to be passed in "Accept-Language" header.
-#### (*) all the APIs need to send "Accept-Language" header for getting language support, else it will take messages.properties.
+1. we need to create folder in "src/main/resources".
+2. folder name may be "i18n".
+3. inside "i18n" we need to create properties file.
+4. messages.properties is the default file.
+5. messages_ta.properties is the tamil language property file, key word is "ta".(*) "ta" need to be passed in "Accept-Language" header.
+6. all the APIs need to send "Accept-Language" header for getting language support, else it will take messages.properties.
 
 ## Step-1  Configuration
 
